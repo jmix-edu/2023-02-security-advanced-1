@@ -1,5 +1,6 @@
 package com.company.jmixpm.screen.main;
 
+import com.vaadin.server.Page;
 import io.jmix.ui.ScreenTools;
 import io.jmix.ui.component.AppWorkArea;
 import io.jmix.ui.component.Button;

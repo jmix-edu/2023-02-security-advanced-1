@@ -16,8 +16,14 @@
     </facets>
     <layout expand="calendar" margin="true">
         <label stylename="h1" value="Active Tasks"/>
-        <calendar id="calendar" width="100%" dataContainer="tasksDc" startDateProperty="startDate"
-                  captionProperty="name" endDateProperty="startDate" isAllDayProperty="allDay"
-                  navigationButtonsVisible="true" firstVisibleHourOfDay="8" lastVisibleHourOfDay="19"/>
+        <calendar id="calendar" width="100%"
+                  dataContainer="tasksDc"
+                  startDateProperty="startDate"
+                  captionProperty="name"
+                  endDateProperty="startDate"
+                  isAllDayProperty="allDay"
+                  navigationButtonsVisible="true"
+                  firstVisibleHourOfDay="8"
+                  lastVisibleHourOfDay="19"/>
     </layout>
 </window>
