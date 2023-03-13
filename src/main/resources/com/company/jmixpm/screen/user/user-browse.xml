@@ -59,6 +59,7 @@
                 <column id="activationToken"/>
                 <column id="createdDate"/>
                 <column id="expiryDate"/>
+                <column id="telephoneNumber"/>
             </columns>
             <simplePagination/>
             <buttonsPanel id="buttonsPanel"
