@@ -17,7 +17,7 @@ public interface AnonymousRole {
     public final static String CODE = "anonymous";
 
     @MenuPolicy(menuIds = "Task_.browse")
-    @ScreenPolicy(screenIds = {"Task_.browse", "PublicTaskCalendar", "MainScreen", "UserRegistration"})
+    @ScreenPolicy(screenIds = {"Task_.browse", "PublicTaskCalendar", "MainScreen", "UserRegistration", "UserActivation"})
     void screens();
 
     @EntityAttributePolicy(entityClass = Task.class, attributes = "*", action = EntityAttributePolicyAction.VIEW)
